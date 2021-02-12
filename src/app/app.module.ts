@@ -8,6 +8,7 @@ import { AppProgressSpinnerComponent } from './core/components/app-progress-spin
 import { HttpClientModule } from '@angular/common/http';
 import { SharedModule } from './shared/shared.module';
 import { CoreModule } from './core/core.module';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { CoreModule } from './core/core.module';
     HttpClientModule,
     SharedModule,
     CoreModule,
+	CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

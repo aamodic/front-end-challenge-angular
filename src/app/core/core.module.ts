@@ -9,6 +9,7 @@ import { SharedModule } from '../shared/shared.module';
 // Containers
 import { HomeLayoutComponent } from './containers/home-layout/home-layout.component';
 import { HomeComponent } from './containers/home/home.component';
+import { AddressBookComponent } from './containers/address-book/address-book.component';
 
 // Components
 import { AppProgressSpinnerComponent } from './components/app-progress-spinner/app-progress-spinner.component';
@@ -18,6 +19,7 @@ import { AppProgressSpinnerComponent } from './components/app-progress-spinner/a
     AppProgressSpinnerComponent,
     HomeLayoutComponent,
     HomeComponent,
+	AddressBookComponent
   ],
   imports: [
     CommonModule,
@@ -28,6 +30,7 @@ import { AppProgressSpinnerComponent } from './components/app-progress-spinner/a
     AppProgressSpinnerComponent,
     HomeComponent,
     HomeLayoutComponent,
+	AddressBookComponent
   ]
 })
 export class CoreModule { }

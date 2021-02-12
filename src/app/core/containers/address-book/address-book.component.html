@@ -1,0 +1,25 @@
+<div class="container">
+	<div class="text-card" *ngFor="let x of addresses$ |async;">
+		<h2><b>{{x.name}}</b></h2>
+		<div class="text-card-line">
+			<h3><b>Street</b></h3>
+			<h3>{{x.streetAddress}}</h3>
+		</div>
+		<div class="text-card-line">
+			<h3><b>City</b></h3>
+			<h3>{{x.city}}</h3>
+		</div>
+		<div class="text-card-line">
+			<h3><b>State</b></h3>
+			<h3>{{x.state}}</h3>
+		</div>
+		<div class="text-card-line">
+			<h3><b>Zip Code</b></h3>
+			<h3>{{x.zipCode}}</h3>
+		</div>
+		<div class="text-card-line">
+			<h3><b>Phone</b></h3>
+			<h3>{{x.phone}}</h3>
+		</div>
+	</div>
+</div>
